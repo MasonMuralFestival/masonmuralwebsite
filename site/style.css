@@ -1,0 +1,125 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+    html{
+      position:relative;
+      min-height:100%;
+    }
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .navbar-inverse{
+      border-color:white;
+    }
+
+   /*social media*/
+
+   .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 65px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    color:white;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      bottom:0;
+      padding-top:10px;
+    }
+    body{
+      font-family:'Helvetica';
+    }
+    .content h3{
+      text-align:center;
+      margin-top:100px;
+    }
+    .content h4{
+      text-align:center;
+    }
+    .logo{
+      width:375px;
+      margin-bottom:-800px;
+      display:inline;
+      margin-left:-20%;
+    }
+
+/*finalist box */
+  .finalistBox{
+    float:left;
+    width:23.5%;
+    background-size: cover;
+    margin:5px;
+    height:260px;
+    color:black;
+    }
+.finalistBox:hover{
+  color:#2200CC;
+}
+  .floatLeft
+  {
+    float:left;
+  }
+
+  .boxTitle{
+    margin-top:-20px;
+    text-align:center;
+    font-family:'Helvetica';
+    font-size:19px;
+    background-color:white;
+  }
+
+  /*NAV*/
+  .navbar-brand{
+    margin-top:-40px;
+  }
+  .navbar-inverse{
+    font-family:'Helvetica';
+    font-size:20px;
+    background-color:white;
+  }
+  #myNavbar{
+    background-color:white;
+  }
+  #myNavbar li a{
+    color: black;
+  }
+  #myNavbar li.active a{
+    color:white;
+
+  }
+  #myNavbar li.active a:hover{
+    color: #2fd0ed
+  }
+  #myNavbar li a:hover{
+    color:#2200CC;
+  }
+
+
+
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .navbar-brand{
+      display:none;
+    }
+  }
