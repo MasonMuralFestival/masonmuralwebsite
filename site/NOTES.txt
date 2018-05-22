@@ -1,2 +1,15 @@
 webform-send email upon submit
 name, #of guests, email address, how did you find out about it
+
+.col-xs-$ 	Extra Small 	Phones Less than 768px
+.col-sm-$ 	Small Devices 	Tablets 768px and Up
+.col-md-$ 	Medium Devices 	Desktops 992px and Up
+.col-lg-$ 	Large Devices 	Large Desktops 1200px and Up 
+
+fix responsive issues
+1 line for artists names
+
+update reed copu, ask jeff
+partners need more text, specific names. ask jeff
+
+
